@@ -1,0 +1,130 @@
+/* Estilos generales para la aplicación */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin: 20px 0;
+}
+
+p {
+  font-size: 18px;
+  color: #666;
+  margin-top: 20px;
+}
+
+/* Estilos para el formulario de selección de café */
+label {
+  display: block;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+select,
+input {
+  width: 60%;
+  font-size: 18px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  margin-bottom: 10px;
+}
+
+/* Estilos para el botón de agregar compra */
+button {
+  background-color: #ff6600;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 15px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #ff4500;
+}
+
+/* Estilos para el ticket y la tabla de compras */
+.ticket {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+  text-align: left;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  padding: 15px;
+  text-align: center;
+}
+
+table th {
+  background-color: #ff6600;
+  color: #fff;
+}
+
+table td {
+  background-color: #fff;
+  color: #333;
+}
+
+/* Estilos para las acciones de eliminar en la tabla de compras */
+table .delete-button {
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+table .delete-button:hover {
+  background-color: #ff0000;
+}
+
+/* Estilos actualizados para la sección de selección de café */
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cafe-selection {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.cafe-selection select,
+.cafe-selection input {
+  width: 80%;
+}
